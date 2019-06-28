@@ -1,0 +1,17 @@
+.top-menu-item {
+	font-family: PTSansWebBold;
+	font-size: 1.8em;
+	color: #010101;
+}
+
+.top-menu-item:hover {
+	color: #fff;
+	background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+
+	.top-menu-item {
+		font-size: 1.4em;
+	}
+}

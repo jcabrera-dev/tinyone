@@ -1,0 +1,84 @@
+.top-menu {
+	background-color: #fcdb00;
+	width: 100%;
+	height: 140px;
+	padding-top: 60px;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+.top-menu > .menu-container {
+	margin-right: 5%;
+}
+
+.top-menu > .menu-container > .right {
+	float: right;
+}
+
+.top-menu > .menu-container > .right > * {
+	margin-left: 5px;
+}
+
+.top-menu > .menu-container > .right > * {
+	padding: 11.4px;
+	display: inline-block;
+	text-align: center;
+	min-width: 50px;
+}
+
+.top-menu *:hover {
+	cursor: pointer;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+.top-menu .top-menu-icon {
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.top-menu {
+		padding-top: 0px;
+		max-height: 60px;
+		background-color: #fcdb00;
+		overflow: hidden;
+	}
+
+	.top-menu > .menu-container {
+		width: 100%;
+		display: block;
+		margin-top: 60px !important;
+		background-color: #fcdb00;
+	}
+
+	.top-menu > .menu-container > .right {
+		display: none;
+	}
+
+	.top-menu-icon {
+		display: block !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.top-menu.toggled {
+		height: 229px;
+		max-height: 1500px;
+		transition: max-height 1s;
+	}
+
+	.top-menu.toggled *:not(.top-menu-lead):not(.top-menu-icon):not(.menu-container) {
+		float: none;
+		display: block !important;
+		text-align: left;
+		margin: 0;
+	}
+}
