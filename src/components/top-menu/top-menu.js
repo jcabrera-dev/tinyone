@@ -1,10 +1,15 @@
 import React, { Component } 	from 'react';
+import { 
+		BrowserRouter as Router, 
+		Route, 
+		Link }					from 'react-router-dom';
 
 import { FontAwesomeIcon }		from '@fortawesome/react-fontawesome';
 import { faBars }				from '@fortawesome/free-solid-svg-icons';
 
 import Item 					from './item/item.js';
 import Lead						from './lead/lead.js';
+import Home						from '../home/home.js';
 
 import './top-menu.css';
 
@@ -38,20 +43,23 @@ class TopMenu extends Component {
 		let top_menu_class = `top-menu ${this.state.menu_class}`
 
 		return (
-			<div>
-				<div className={top_menu_class}>
-					<Lead text="tinyone" />
-					<div className='menu-container'>
-						<div className='right'>
-							<Item text="Features" />
-							<Item text="Support" />
-							<Item text="Blog" />
+			<Router>
+				<div>
+					<div className={top_menu_class}>
+						<Lead text="tinyone" />
+						<div className='menu-container'>
+							<div className='right'>
+								<Link to="/"><Item text="Features" /></Link>
+								<Item text="Support" />
+								<Item text="Blog" />
+							</div>
 						</div>
+						<FontAwesomeIcon icon={faBars} className='top-menu-icon' onClick={this.setToggleTopMenuClass} size='2x' />
+						<div className='clear-fix' />
 					</div>
-					<FontAwesomeIcon icon={faBars} className='top-menu-icon' onClick={this.setToggleTopMenuClass} size='2x' />
-					<div className='clear-fix' />
+					<Route exact path="/" component={Home} />
 				</div>
-			</div>
+			</Router>
 		)
 	}
 } // closing component
