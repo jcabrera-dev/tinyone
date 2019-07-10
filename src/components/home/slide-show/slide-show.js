@@ -15,7 +15,7 @@ class SlideShow extends Component {
 		this.state = {
 			slideImages: [
 				{
-					url: '/static/media/slide-show-image.8a00f3e3.png',
+					url: ImageSlideOne,
 					alt: 'image 1'
 				}	
 			]
