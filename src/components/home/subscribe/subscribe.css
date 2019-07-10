@@ -1,0 +1,9 @@
+.subscribe-container {
+	background-color: #010101;
+	height: 320px;
+	margin-top: 80px;
+	padding-top: 80px;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
