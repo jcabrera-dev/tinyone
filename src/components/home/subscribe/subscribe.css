@@ -1,9 +1,20 @@
 .subscribe-container {
 	background-color: #010101;
-	height: 320px;
 	margin-top: 80px;
 	padding-top: 80px;
-	left: 0;
-	right: 0;
-	position: absolute;
 }
+
+@media (min-width: 576px) {
+}
+
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+	
+}
+
+@media (min-width: 1200px) {
+
+ }

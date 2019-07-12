@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"iconUrl": "https://res.cloudinary.com/dyrmkipnq/image/upload/v1562737244/facebook-icon_kum7fy.png",
+		"alt": "facebook",
+		"link": "#"
+	},
+	{
+		"id": 2,
+		"iconUrl": "https://res.cloudinary.com/dyrmkipnq/image/upload/v1562737244/twitter-icon_r7nnx6.png",
+		"alt": "twitter",
+		"link": "#"
+	},
+	{
+		"id": 3,
+		"iconUrl": "https://res.cloudinary.com/dyrmkipnq/image/upload/v1562737244/google-plus_vapdzj.png",
+		"alt": "google plus",
+		"link": "#"
+	},
+	{
+		"id": 4,
+		"iconUrl": "https://res.cloudinary.com/dyrmkipnq/image/upload/v1562737244/pinterest-icon_bzaaiy.png",
+		"alt": "pinterest",
+		"link": "#"
+	}
+]

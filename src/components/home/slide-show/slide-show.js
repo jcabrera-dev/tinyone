@@ -1,6 +1,5 @@
 import React, { Component }			from 'react';
 import Carousel						from 'react-bootstrap/Carousel';
-import ImageSlideOne 				from './images/slide-show-image.png';
 
 
 import './slide-show.css';
@@ -15,7 +14,7 @@ class SlideShow extends Component {
 		this.state = {
 			slideImages: [
 				{
-					url: ImageSlideOne,
+					url: 'https://res.cloudinary.com/dyrmkipnq/image/upload/v1562659122/slide-show-image_dbckam.png',
 					alt: 'image 1'
 				}	
 			]

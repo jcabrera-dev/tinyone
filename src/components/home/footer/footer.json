@@ -1,0 +1,84 @@
+{
+	"Address": 
+	{
+		"businessName": "HALOVIETNAM LTD",
+		"street": "66, Dang Van ngu, Dong Da",
+		"city": "Hanoi",
+		"state": "Vietnam",
+		"email": "contact@halovietnam.com",
+		"number": "+844 35149182"
+	},
+	"MenuOne": [
+		{
+			"id": 1,
+			"item": "Examples",
+			"link": "#"
+		},
+		{
+			"id": 2,
+			"item": "Shop",
+			"link": "#"
+		},
+		{
+			"id": 3,
+			"item": "License",
+			"link": "#"
+		}
+	],
+	"MenuTwo": [
+		{
+			"id": 1,
+			"item": "Contact",
+			"link": "#"
+		},
+		{
+			"id": 2,
+			"item": "About",
+			"link": "#"
+		},
+		{
+			"id": 3,
+			"item": "Privacy",
+			"link": "#"
+		},
+		{
+			"id": 4,
+			"item": "Terms",
+			"link": "#"
+		}
+	],
+	"MenuThree": [
+		{
+			"id": 1,
+			"item": "Download",
+			"link": "#"
+		},
+		{
+			"id": 2,
+			"item": "Support",
+			"link": "#"
+		},
+		{
+			"id": 3,
+			"item": "Documents",
+			"link": "#"
+		}
+	],
+	"MenuFour": [
+		{
+			"id": 1,
+			"item": "Media",
+			"link": "#"
+		},
+		{
+			"id": 2,
+			"item": "Blog",
+			"link": "#"
+		},
+		{
+			"id": 3,
+			"item": "Forums",
+			"link": "#"
+		}
+	]
+}
