@@ -14,7 +14,7 @@ class Footer extends Component {
 				<div className="container-fluid">
 					<div className="d-flex align-content-stretch flex-wrap justify-content-center">
 						<div className="p-2">
-							<ul> 
+							<ul className="custom-address"> 
 								<li>{ footer.Address.businessName }</li>
 								<li>{ footer.Address.street}</li>
 								<li>{ footer.Address.city }</li>
@@ -24,30 +24,30 @@ class Footer extends Component {
 							</ul>
 						</div>
 						<div className="p-2">
-							<ul> 
+							<ul className="custom-menu"> 
 								{ footer.MenuOne.map(footer => (
-									<li key={footer.id}>{footer.item}</li>
+									<li key={footer.id}><a href="#">{footer.item}</a></li>
 								))}
 							</ul>
 						</div>
 						<div className="p-2">
-							<ul> 
+							<ul className="custom-menu"> 
 								{ footer.MenuTwo.map(footer => (
-									<li key={footer.id}>{footer.item}</li>
+									<li key={footer.id}><a href="#">{footer.item}</a></li>
 								))}
 							</ul>
 						</div>
 						<div className="p-2">
-							<ul> 
+							<ul className="custom-menu"> 
 								{ footer.MenuThree.map(footer => (
-									<li key={footer.id}>{footer.item}</li>
+									<li key={footer.id}><a href="#">{footer.item}</a></li>
 								))}
 							</ul>
 						</div>
 						<div className="p-2">
-							<ul> 
+							<ul className="custom-menu"> 
 								{ footer.MenuFour.map(footer => (
-									<li key={footer.id}>{footer.item}</li>
+									<li key={footer.id}><a href="#">{footer.item}</a></li>
 								))}
 							</ul>
 						</div>

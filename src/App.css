@@ -2,3 +2,15 @@
   font-family: PTSansWebBold;
   src: url('./assets/fonts/PT_Sans-Web-Bold.ttf');
 }
+
+@font-face {
+  font-family: PTSansRegular;
+  src: url('./assets/fonts/PT_Sans-Web-Regular.ttf');
+}
+
+body {
+  color: #010101;
+}
+p {
+  font-family: PTSansRegular;
+}

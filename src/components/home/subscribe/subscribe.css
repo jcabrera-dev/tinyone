@@ -4,6 +4,19 @@
 	padding-top: 80px;
 }
 
+.subscribe-head {
+	font-style: PTSansWebBold;
+	color: #fcdb00;
+}
+
+.subscribe-paragraph {
+	color: #898989;
+}
+
+.custom-style {
+	border: none;
+}
+
 @media (min-width: 576px) {
 }
 
