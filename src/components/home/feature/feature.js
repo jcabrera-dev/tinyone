@@ -21,7 +21,6 @@ class Feature extends Component {
 			features: FeaturesData,
 			isLoaded: true
 		});
-		debugger
 		// fetch('https://my-json-server.typicode.com/typicode/demo/comments', {
 		// 	headers : { 
 		// 		'Content-Type': 'application/json',
