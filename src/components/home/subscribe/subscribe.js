@@ -32,9 +32,9 @@ class Subscribe extends Component {
 				</div>
 				<div className="d-flex align-content-stretch flex-wrap justify-content-center">
 					{ MediaIcons.map(icon => (
-						<div className="p-0" key={icon.id}>
+						<div className="p-0 m-3" key={icon.id}>
 							<a href={icon.link}>
-								<img src={icon.iconUrl} alt={icon.alt} className="m-3" />
+								<img src={icon.iconUrl} alt={icon.alt} />
 							</a>
 						</div>
 					))}

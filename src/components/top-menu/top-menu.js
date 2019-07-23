@@ -26,7 +26,6 @@ class TopMenu extends Component {
 	}
 
 	setToggleTopMenuClass = () => {
-		debugger
 		if(this.state.menu_class === '') {
 			this.setState({
 				menu_class: 'toggled',
@@ -50,8 +49,8 @@ class TopMenu extends Component {
 						<div className='menu-container'>
 							<div className='right'>
 								<Link to="/"><Item text="Features" /></Link>
-								<Item text="Support" />
-								<Item text="Blog" />
+								<Link to="/"><Item text="Support" /></Link>
+								<Link to="/"><Item text="Blog" /></Link>
 							</div>
 						</div>
 						<FontAwesomeIcon icon={faBars} className='top-menu-icon' onClick={this.setToggleTopMenuClass} size='2x' />

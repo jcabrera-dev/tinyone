@@ -13,3 +13,11 @@
 	color: #fcdb00;
 	text-decoration: none;
 }
+
+.email > a {
+	text-decoration: none;
+}
+
+.email > a:hover {
+	color: #fcdb00;
+}

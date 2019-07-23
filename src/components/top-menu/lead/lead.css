@@ -35,9 +35,9 @@
 	}
 
 	.top-menu-lead > span {
-		top: 10px;
+		top: 1px;
 		left: 63px;
-		position: fixed;
+		position: absolute;
 		float: left !important;
 		color: #010101;
 		font-family: PTSansWebBold;
