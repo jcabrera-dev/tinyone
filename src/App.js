@@ -5,7 +5,7 @@ import TopMenu 						from './components/top-menu/top-menu';
 
 function App() {
   return (
-    <TopMenu />
+      <TopMenu />
   );
 }
 
