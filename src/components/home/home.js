@@ -14,12 +14,14 @@ class Home extends Component {
 
 	render() {
 		return (
-			<div>
-				<SlideShow />
-				<Feature />
-				<Subscribe />
-				<Footer />
-			</div>
+			<React.Fragment>
+				<div>
+					<SlideShow />
+					<Feature />
+					<Subscribe />
+					<Footer />
+				</div>
+			</React.Fragment>
 		)
 	}
 }
