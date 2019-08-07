@@ -48,6 +48,7 @@ class TopMenu extends Component {
 						<Lead text="tinyone" />
 						<div className='menu-container'>
 							<div className='right'>
+								{/* base of the url */}
 								<BrowserRouter basename="/tinyone" />
 								<Link to="/"><Item text="Features" /></Link>
 								<Link to="/"><Item text="Support" /></Link>
