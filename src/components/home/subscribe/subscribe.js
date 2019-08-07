@@ -24,8 +24,9 @@ class Subscribe extends Component {
 							<form className="form-inline">
 								<div className="form-group input-group-md">
 									<input type="email" className="form-control mr-3 custom-style" placeholder="Enter your email to update" />
+									<button type="submit" className="btn btn-primary btn-md">Submit</button>
 								</div>
-								<button type="submit" className="btn btn-primary btn-md">Submit</button>
+								
 							</form>
 						</div>
 					</div>
