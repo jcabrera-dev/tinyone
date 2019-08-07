@@ -8,10 +8,6 @@ import Subscribe				from './subscribe/subscribe';
 import Footer					from './footer/footer';
 
 class Home extends Component {
-	// constructor() {
-	// 	super()
-	// }
-
 	render() {
 		return (
 			<React.Fragment>
