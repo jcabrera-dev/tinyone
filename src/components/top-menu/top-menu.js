@@ -42,7 +42,7 @@ class TopMenu extends Component {
 		let top_menu_class = `top-menu ${this.state.menu_class}`
 
 		return (
-			<Router basename="/tinyone">
+			<Router basename="/tinyone/">
 				<div>
 					<div className={top_menu_class}>
 						<Lead text="tinyone" />
