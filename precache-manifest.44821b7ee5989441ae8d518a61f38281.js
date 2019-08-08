@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26ea5f2015320efe9d34266a9105625b",
+    "revision": "50451ac6e41ae24daf6fefc729198e76",
     "url": "/tinyone/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tinyone/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "33ef87c65925a9f27025",
+    "revision": "b91fcc5adfd03429a900",
     "url": "/tinyone/static/css/main.b580a206.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tinyone/static/js/2.24a6e83a.chunk.js"
   },
   {
-    "revision": "33ef87c65925a9f27025",
-    "url": "/tinyone/static/js/main.c122181f.chunk.js"
+    "revision": "b91fcc5adfd03429a900",
+    "url": "/tinyone/static/js/main.649c0362.chunk.js"
   },
   {
     "revision": "6dd4a51524bd4f8faca7",
