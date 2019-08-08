@@ -57,7 +57,7 @@ class TopMenu extends Component {
 						<FontAwesomeIcon icon={faBars} className='top-menu-icon' onClick={this.setToggleTopMenuClass} size='2x' />
 						<div className='clear-fix' />
 					</div>
-					<Route exact path="/" component={Home} />
+					<Route exact path="/tinyone/" component={Home} />
 				</div>
 			</Router>
 		)
