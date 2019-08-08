@@ -49,15 +49,15 @@ class TopMenu extends Component {
 						<div className='menu-container'>
 							<div className='right'>
 								{/* base of the url */}
-								<Link to="/tinyone"><Item text="Features" /></Link>
-								<Link to="/tinyone"><Item text="Support" /></Link>
-								<Link to="/tinyone"><Item text="Blog" /></Link>
+								<Link to="/"><Item text="Features" /></Link>
+								<Link to="/"><Item text="Support" /></Link>
+								<Link to="/"><Item text="Blog" /></Link>
 							</div>
 						</div>
 						<FontAwesomeIcon icon={faBars} className='top-menu-icon' onClick={this.setToggleTopMenuClass} size='2x' />
 						<div className='clear-fix' />
 					</div>
-					<Route exact path="/tinyone/" component={Home} />
+					<Route exact path="/" component={Home} />
 				</div>
 			</Router>
 		)
